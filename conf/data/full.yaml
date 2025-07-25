@@ -1,0 +1,7 @@
+# conf/data/full.yaml
+_target_: image_wizard.utils.download_data.get_cifar10_dataloaders
+data_dir: ./data
+batch_size: 64
+num_workers: 2
+augment: true
+download: true

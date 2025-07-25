@@ -1,0 +1,6 @@
+# conf/callbacks/early_stopping.yaml
+_target_: lightning.pytorch.callbacks.EarlyStopping
+monitor: val/acc
+mode: max
+patience: 10
+verbose: true

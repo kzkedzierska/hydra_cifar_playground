@@ -1,0 +1,6 @@
+# conf/callbacks/model_checkpoint.yaml
+_target_: lightning.pytorch.callbacks.ModelCheckpoint
+monitor: val/acc
+mode: max
+save_top_k: 1
+filename: best-{epoch:02d}-{val_acc:.3f}

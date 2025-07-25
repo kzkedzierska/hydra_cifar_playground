@@ -1,0 +1,7 @@
+defaults:
+  - data: subset # or full
+  - model: vanilla_cnn
+  - training: default
+  - system: auto
+
+seed: 23
